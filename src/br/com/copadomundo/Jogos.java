@@ -21,6 +21,10 @@ public class Jogos implements Serializable, Comparable<Jogos> {
 		
 	}
 	
+	public int getNumeroJogo() {
+		return numeroJogo;
+	}
+	
 	public int getHorario() {
 		return horario;
 	}
